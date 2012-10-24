@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="DecompClipse update site" url="http://decompclipse.googlecode.com/svn/trunk/org/decompclipse/updatesite/site.xml">
+   <description name="DecompClipse update site" url="http://decompclipse.googlecode.com/svn/trunk/org.decompclipse.updatesite/site.xml">
       Main DecompClipse update site
    </description>
    <feature url="features/org.decompclipse.feature_1.0.0.jar" id="org.decompclipse.feature" version="1.0.0">
