@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JD Decompiler Plug-in
+Bundle-SymbolicName: org.decompclipse.jd;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.decompclipse.jd.JdPlugin
+Bundle-Vendor: DecompClipse Team
+Require-Bundle: org.eclipse.core.runtime,
+ org.decompclipse.core,
+ org.eclipse.jface,
+ org.eclipse.ui,
+ org.eclipse.jdt.core
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-ActivationPolicy: lazy

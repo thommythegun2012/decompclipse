@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.decompclipse.core.decompilers">
+      <decompiler
+            class="org.decompclipse.jd.JdDecompiler"
+            id="org.decompclipse.jd.JdDecompiler"
+            name="JD">
+      </decompiler>
+   </extension>
+
+</plugin>
