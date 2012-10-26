@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DecompClipse UI Plug-in
+Bundle-SymbolicName: org.decompclipse.ui;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.decompclipse.ui.JdtDecompilerUiPlugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.ui,
+ org.eclipse.jdt.core,
+ org.eclipse.ui.editors,
+ org.decompclipse.core,
+ org.eclipse.core.resources,
+ org.eclipse.debug.ui;bundle-version="3.4.1",
+ org.eclipse.jface.text;bundle-version="3.8.1"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Export-Package: org.decompclipse.ui.fieldeditors
+Bundle-Vendor: DecompClipse Team

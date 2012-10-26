@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DecompClipse Decompiler Core Plug-in
+Bundle-SymbolicName: org.decompclipse.core;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.decompclipse.core.JdtDecompilerCorePlugin
+Bundle-Vendor: DecompClipse Team
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-ActivationPolicy: lazy
+Export-Package: org.decompclipse.core
